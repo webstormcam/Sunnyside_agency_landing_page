@@ -19,6 +19,7 @@ font-family: 'Fraunces', serif;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
    
 }
 
@@ -43,4 +44,28 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 height: 50vh;
+
+}
+
+h1{
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color: #fff;
+    line-height: 2.5rem;
+    letter-spacing: 0.3rem;
+    
+}
+
+.arrow{
+    position: absolute;
+    top: 20rem;
+
+}
+
+@media screen and (min-width:768px) {
+    .top{
+        background-image: url('imgs/desktop/image-header.jpg');
+       
+    }
 }
