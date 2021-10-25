@@ -146,11 +146,22 @@ h1{
         color: white;
     }
 
+    .links_large li:hover{
+        color: yellow;
+    }
+
+
+
     #contact{
         background-color: #fff ;
         padding: 1rem;
         border-radius: 1rem;
         color: #24303E;
+    }
+
+    #contact:hover{
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.493);
     }
 
     .arrow{
