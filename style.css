@@ -91,12 +91,12 @@ h1{
     border-color: transparent transparent #fff transparent;
     position: absolute;
     right: 5vw;
-    top: 4rem;
+    top: 4.3rem;
     
 }
 
 #contact2{
-    background-color: #fff ;
+    background-color: yellow ;
     padding: 1rem;
     border-radius: 1rem;
     color: #24303E;
