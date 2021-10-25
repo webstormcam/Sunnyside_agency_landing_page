@@ -59,11 +59,25 @@ h1{
 
 .arrow{
     position: absolute;
-    top: 20rem;
+    top: 55vh;
 
 }
 
+.links_large{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
+
+br{
+    display: none;
+}
+
+h1{
+   font-size: 3.5rem;
+    
+}
+
     .top{
         background-image: url('imgs/desktop/image-header.jpg');
        
@@ -71,5 +85,37 @@ h1{
 
     .hamburger{
         display: none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .links_large{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 25rem;
+
+    }
+    .links_large li{
+        color: white;
+    }
+
+    .contact{
+        background-color: #ffffff44 ;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .arrow{
+        position: absolute;
+        top: 45vh;
+    
     }
 }
