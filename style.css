@@ -162,4 +162,9 @@ h1{
     #links_small{
         display: none;
     }
+
+    .small_triangle{
+      display: none;
+        
+    }
 }
