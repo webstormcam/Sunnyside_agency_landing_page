@@ -68,4 +68,8 @@ h1{
         background-image: url('imgs/desktop/image-header.jpg');
        
     }
+
+    .hamburger{
+        display: none;
+    }
 }
