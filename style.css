@@ -24,5 +24,14 @@ font-family: 'Fraunces', serif;
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo{
+    margin-left: 1rem;
+}
+
+.hamburger{
+    margin-right: 1rem;
 }
