@@ -9,8 +9,9 @@ font-family: 'Fraunces', serif;
 
 #container{
     display: grid;
-    grid-template-rows: 100vh;
-    grid-template-areas: 'top';
+    grid-template-rows: 100vh 50vh;
+    grid-template-areas: 'top'
+                         'second';
 }
 
 .top{
@@ -108,6 +109,21 @@ h1{
 #contact2:hover{
     color: yellow;
     background-color: #24303E;
+}
+
+.second{
+    grid-area: second;
+    display: grid;
+    grid-template-rows: 50vh;
+    grid-template-areas: 'egg';
+}
+
+.egg{
+    grid-area: egg;
+    background-image: url('imgs/mobile/image-transform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
