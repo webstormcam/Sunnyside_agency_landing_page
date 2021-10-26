@@ -34,8 +34,9 @@ header{
     margin-left: 1rem;
 }
 
-.hamburger{
+#hamburger{
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .words_arrow{
@@ -81,9 +82,10 @@ h1{
    border-radius: 1rem;
    padding: 1rem;
    margin-top: 2rem;
+   display: none;
 }
 
-.small_triangle{
+#small_triangle{
     width: 0;
     height: 0;
     border-style: solid;
@@ -92,6 +94,7 @@ h1{
     position: absolute;
     right: 5vw;
     top: 4.3rem;
+    display: none;
     
 }
 
@@ -128,7 +131,7 @@ h1{
        
     }
 
-    .hamburger{
+    #hamburger{
         display: none;
     }
 
