@@ -180,11 +180,11 @@ h1{
     }
 
     #links_small{
-        display: none;
+        display: none !important;
     }
 
-    .small_triangle{
-      display: none;
+    #small_triangle{
+      display: none !important;
         
     }
 }
