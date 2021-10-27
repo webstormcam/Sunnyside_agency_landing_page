@@ -9,7 +9,7 @@ font-family: 'Fraunces', serif;
 
 #container{
     display: grid;
-    grid-template-rows: 100vh 50vh;
+    grid-template-rows: 100vh 1fr;
     grid-template-areas: 'top'
                          'second';
 }
@@ -256,7 +256,7 @@ h1{
     .second{
         grid-area: second;
         display: grid;
-        grid-template-rows: 400px;
+        grid-template-rows: 550px;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'words1 egg';
     }
@@ -272,8 +272,7 @@ h1{
 
     .words1{
       text-align: left;
-      align-items: flex-start;
-      padding: 3rem;
+      align-items: center;
       justify-content: center;
     }
 
@@ -286,4 +285,6 @@ h1{
         padding-left: 0rem;
      
     }
+
+    .words_text{}
 }
