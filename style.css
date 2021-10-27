@@ -129,7 +129,50 @@ h1{
 
 .words1{
     grid-area: words1;
-    background-color: black;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.words1 h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.words1 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #808397;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+    
+   
+}
+
+.colorbar{
+position: absolute;
+width: 100%;
+background-color: rgba(153, 50, 204, 0.363);
+border-radius: 1rem;
+height: 0.5rem;
+top: 0.7rem;
 }
 
 
@@ -213,8 +256,34 @@ h1{
     .second{
         grid-area: second;
         display: grid;
-        grid-template-rows: 50vh;
+        grid-template-rows: 400px;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'words1 egg';
+    }
+
+    .egg{
+        background-image: url('imgs/desktop/image-transform.jpg');
+     
+    }
+
+    .constant{
+        display: block;
+    }
+
+    .words1{
+      text-align: left;
+      align-items: flex-start;
+      padding: 3rem;
+      justify-content: center;
+    }
+
+    .words1 h2{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .words1 p{
+        padding-left: 0rem;
+     
     }
 }
