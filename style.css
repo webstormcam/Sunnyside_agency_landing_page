@@ -274,9 +274,10 @@ h1{
     .second{
         grid-area: second;
         display: grid;
-        grid-template-rows: 550px;
+        grid-template-rows: 550px 550px;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 'words1 egg';
+        grid-template-areas: 'words1 egg'
+                            'cup words2';
     }
 
     .egg{
@@ -286,13 +287,13 @@ h1{
 
    
 
-    .words1{
+    .words{
       text-align: left;
       align-items: center;
       justify-content: center;
     }
 
-    .words1 h2{
+    .words h2{
         font-size: 3rem;
         line-height: 3.5rem;
     }
@@ -305,7 +306,7 @@ h1{
         width: 125px;
     }
 
-    .words1 p{
+    .words p{
         padding-left: 0rem;
         max-width: 600px;
         font-size: 1.3rem;
