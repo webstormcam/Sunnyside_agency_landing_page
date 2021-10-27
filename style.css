@@ -312,10 +312,11 @@ h1{
     .second{
         grid-area: second;
         display: grid;
-        grid-template-rows: 550px 550px;
+        grid-template-rows: 720px 720px 720px;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'words1 egg'
-                            'cup words2';
+                            'cup words2'
+                            'graphic photography';
     }
 
     .egg{
@@ -355,4 +356,28 @@ h1{
     .words_text{
         width: 75%;
     }
+
+    .photography{
+        background-image: url('imgs/desktop/image-photography.jpg');
+    }
+
+    .graphic{
+        background-image: url('imgs/desktop/image-graphic-design.jpg');
+    }
+
+    .bigend{
+        background-position: top;
+    }
+
+    .bigend h2{
+        font-size: 2.5rem;
+    }
+
+    .bigend p{
+        max-width: 500px;
+        font-size: 1.3rem;
+
+    }
+
+    
 }
