@@ -114,9 +114,11 @@ h1{
 .second{
     grid-area: second;
     display: grid;
-    grid-template-rows: 50vh 50vh;
+    grid-template-rows: 50vh 50vh 50vh 50vh ;
     grid-template-areas: 'egg'
-                            'words1';
+                        'words1'
+                        'cup'
+                        'words2';
 }
 
 .egg{
@@ -127,8 +129,7 @@ h1{
     background-position: center;
 }
 
-.words1{
-    grid-area: words1;
+.words{
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -137,13 +138,17 @@ h1{
     text-align: center;
 }
 
-.words1 h2{
+.words1{
+    grid-area: words1;
+}
+
+.words h2{
     font-size: 1.8rem;
     line-height: 2rem;
     margin-bottom: 1rem;
 }
 
-.words1 p{
+.words p{
     font-family: 'Barlow', sans-serif;
     font-size: 0.9rem;
     line-height: 1.5rem;
@@ -173,6 +178,19 @@ background-color: rgba(153, 50, 204, 0.363);
 border-radius: 1rem;
 height: 0.5rem;
 top: 0.7rem;
+}
+
+.cup{
+    grid-area: cup;
+    background-image: url('imgs/mobile/image-stand-out.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.words2{
+    grid-area: words2;
 }
 
 
