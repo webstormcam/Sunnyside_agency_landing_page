@@ -114,11 +114,13 @@ h1{
 .second{
     grid-area: second;
     display: grid;
-    grid-template-rows: 50vh 50vh 50vh 50vh ;
+    grid-template-rows: 50vh 50vh 50vh 50vh 70vh 70vh ;
     grid-template-areas: 'egg'
                         'words1'
                         'cup'
-                        'words2';
+                        'words2'
+                        'graphic'
+                        'photography';
 }
 
 .egg{
@@ -191,6 +193,42 @@ top: 0.7rem;
 
 .words2{
     grid-area: words2;
+}
+
+.graphic{
+    grid-area: graphic;
+    background-image: url('imgs/mobile/image-graphic-design.jpg');
+}
+
+.bigend{
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.photography{
+    grid-area: photography;
+    background-image: url('imgs/mobile/image-photography.jpg');
+}
+
+.bigend h2{
+    font-size: 1.5rem;
+    margin-top: 20rem;
+    color: #24554A;
+}
+
+.bigend p{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    color: #24554A;
+    font-family: 'Barlow', sans-serif;
+    line-height: 2rem;
 }
 
 
