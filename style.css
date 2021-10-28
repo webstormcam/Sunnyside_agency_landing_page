@@ -9,9 +9,10 @@ font-family: 'Fraunces', serif;
 
 #container{
     display: grid;
-    grid-template-rows: 100vh 1fr;
+    grid-template-rows: 100vh 1fr 700px;
     grid-template-areas: 'top'
-                         'second';
+                         'second'
+                         'third';
 }
 
 .top{
@@ -229,6 +230,34 @@ top: 0.7rem;
     color: #24554A;
     font-family: 'Barlow', sans-serif;
     line-height: 2rem;
+}
+
+.third{
+    grid-area: third;
+    display: grid;
+    grid-template-rows: 10% 200px ;
+        grid-template-areas: 
+        'heading'
+        'emily';
+        justify-content: center;
+}
+
+.heading{
+    grid-area: heading;
+    color: #A7AAAD;
+    
+    letter-spacing: 0.4rem;
+    margin-top: 2rem;
+    font-weight: 900;
+
+}
+
+.emily{
+display: flex;
+flex-direction: column;
+align-items: center;
+grid-area: emily;
+
 }
 
 
