@@ -235,19 +235,21 @@ top: 0.7rem;
 .third{
     grid-area: third;
     display: grid;
-    grid-template-rows: 10% 200px ;
+    gap: 50px;
+    grid-template-rows: 100px 250px ;
         grid-template-areas: 
         'heading'
         'emily';
         justify-content: center;
+        justify-items: center;
 }
 
 .heading{
     grid-area: heading;
     color: #A7AAAD;
-    
-    letter-spacing: 0.4rem;
-    margin-top: 2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+    margin-top: 4rem;
     font-weight: 900;
 
 }
@@ -258,6 +260,37 @@ flex-direction: column;
 align-items: center;
 grid-area: emily;
 
+}
+
+.person{
+    width: 5rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.quote{
+    max-width: 399px;
+    color: #5B636D;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 2rem;
+}
+
+.name{
+    color:#24303E ;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.position{
+    font-size: 0.9rem;
+    font-family: 'Barlow', sans-serif;
+    color: #A7AAAD;
 }
 
 
