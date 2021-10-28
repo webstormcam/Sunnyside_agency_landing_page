@@ -314,7 +314,19 @@ align-items: center;
 
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:740px) {
+
+
+
+    #container{
+        display: grid;
+        grid-template-rows: 100vh 1fr 800px;
+        grid-template-areas: 'top'
+                             'second'
+                             'third';
+    }
+
+
 
 br{
     display: none;
@@ -460,13 +472,26 @@ h1{
     .third{
         grid-area: third;
         display: grid;
-        grid-template-columns: repeat(3,minmax(200px,400px));
-        grid-template-rows: 150px 700px;
+  gap: 0px 5%;
+        grid-template-columns: repeat(3,minmax(100px,400px));
+        grid-template-rows: 250px 300px;
             grid-template-areas: 
             'heading heading heading'
             'emily thomas jennie';
             justify-content: center;
             justify-items: center;
+    }
+
+    .heading{
+    
+   align-self: center;
+       
+    
+    }
+
+    .quote{
+        max-width: none;
+        padding: 1rem;
     }
 
     
