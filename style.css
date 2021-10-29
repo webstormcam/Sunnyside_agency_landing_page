@@ -9,10 +9,11 @@ font-family: 'Fraunces', serif;
 
 #container{
     display: grid;
-    grid-template-rows: 100vh 1fr 700px;
+    grid-template-rows: 100vh 1fr 1300px 400px;
     grid-template-areas: 'top'
                          'second'
-                         'third';
+                         'third'
+                         'fourth';
 }
 
 .top{
@@ -309,6 +310,41 @@ flex-direction: column;
 align-items: center;
 }
 
+.fourth{
+    grid-area: fourth;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-template-areas: 'milk orangey'
+                        'cone blocks';
+}
+
+.milk{
+grid-area: milk;
+background-image: url('imgs/mobile/image-gallery-milkbottles.jpg');
+}
+
+.cone{
+grid-area: cone;
+background-image: url('imgs/mobile/image-gallery-cone.jpg');
+}
+
+.orangey{
+    grid-area: orangey;
+    background-image: url('imgs/mobile/image-gallery-orange.jpg');
+}
+
+.blocks{
+    grid-area: blocks;
+    background-image: url('imgs/mobile/image-gallery-sugar-cubes.jpg');
+}
+
+.back{
+ background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
@@ -320,10 +356,11 @@ align-items: center;
 
     #container{
         display: grid;
-        grid-template-rows: 100vh 1fr 800px;
+        grid-template-rows: 100vh 1fr 800px 400px;
         grid-template-areas: 'top'
                              'second'
-                             'third';
+                             'third'
+                             'fourth';
     }
 
 
