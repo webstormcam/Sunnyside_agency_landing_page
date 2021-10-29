@@ -531,5 +531,36 @@ h1{
         padding: 1rem;
     }
 
+    .fourth{
+        grid-area: fourth;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 400px;
+        grid-template-areas: 'milk orangey cone blocks';
+      
+    }
+
+
+    .milk{
+        grid-area: milk;
+        background-image: url('imgs/desktop/image-gallery-milkbottles.jpg');
+        }
+        
+        .cone{
+        grid-area: cone;
+        background-image: url('imgs/desktop/image-gallery-cone.jpg');
+        }
+        
+        .orangey{
+            grid-area: orangey;
+            background-image: url('imgs/desktop/image-gallery-orange.jpg');
+        }
+        
+        .blocks{
+            grid-area: blocks;
+            background-image: url('imgs/desktop/image-gallery-sugarcubes.jpg');
+        }
+        
+
     
 }
