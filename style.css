@@ -223,10 +223,11 @@ a{
 }
 
 .bigend{
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
    background-position: center;
-    display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -569,15 +570,20 @@ h1{
 
     .bigend{
         background-position: top;
+        position: relative;
     }
 
     .bigend h2{
         font-size: 2.5rem;
+        position: absolute;
+        top: 8rem;
     }
 
     .bigend p{
         max-width: 500px;
         font-size: 1.3rem;
+        position: absolute;
+        top:30rem
 
     }
 
@@ -640,3 +646,4 @@ h1{
 
     
 }
+
