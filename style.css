@@ -349,6 +349,44 @@ background-image: url('imgs/mobile/image-gallery-cone.jpg');
 .end{
     grid-area: end;
     background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+   max-width: 399px;
+   margin-top: 2rem;
+}
+
+.green_logo{
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
+.bottom_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: inherit;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bottom_links p{
+    color: #458D7E;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    margin-top: 2rem;
 }
 
 
@@ -362,7 +400,7 @@ background-image: url('imgs/mobile/image-gallery-cone.jpg');
 
     #container{
         display: grid;
-        grid-template-rows: 100vh 1fr 800px 400px 200px;
+        grid-template-rows: 100vh 1fr 800px 400px 250px;
         grid-template-areas: 'top'
                              'second'
                              'third'
