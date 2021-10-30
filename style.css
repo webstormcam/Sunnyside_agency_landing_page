@@ -9,11 +9,12 @@ font-family: 'Fraunces', serif;
 
 #container{
     display: grid;
-    grid-template-rows: 100vh 1fr 1300px 400px;
+    grid-template-rows: 100vh 1fr 1300px 400px 250px;
     grid-template-areas: 'top'
                          'second'
                          'third'
-                         'fourth';
+                         'fourth'
+                         'end';
 }
 
 .top{
@@ -345,6 +346,11 @@ background-image: url('imgs/mobile/image-gallery-cone.jpg');
     background-position: center;
 }
 
+.end{
+    grid-area: end;
+    background-color: #90D4C6;
+}
+
 
 
 
@@ -356,11 +362,12 @@ background-image: url('imgs/mobile/image-gallery-cone.jpg');
 
     #container{
         display: grid;
-        grid-template-rows: 100vh 1fr 800px 400px;
+        grid-template-rows: 100vh 1fr 800px 400px 200px;
         grid-template-areas: 'top'
                              'second'
                              'third'
-                             'fourth';
+                             'fourth'
+                             'end';
     }
 
 
@@ -560,6 +567,7 @@ h1{
             grid-area: blocks;
             background-image: url('imgs/desktop/image-gallery-sugarcubes.jpg');
         }
+        
         
 
     
