@@ -177,12 +177,21 @@ a{
 }
 
 .colorbar{
-position: absolute;
-width: 110px;
-background-color: rgba(153, 50, 204, 0.363);
-border-radius: 1rem;
-height: 0.5rem;
-top: 0.7rem;
+    position: absolute;
+    width: 110px;
+    background-color: rgb(203, 191, 78,  32%);
+    border-radius: 1rem;
+    height: 0.5rem;
+    top: 0.8rem;
+}
+
+.colorbar2{
+    position: absolute;
+    width: 110px;
+    background-color: #fe78666c;
+    border-radius: 1rem;
+    height: 0.5rem;
+    top: 0.8rem;
 }
 
 .cup{
@@ -515,6 +524,9 @@ h1{
     }
     .colorbar{
         width: 125px;
+    }
+    .colorbar2{
+      width: 125px;
     }
 
     .words p{
