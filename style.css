@@ -182,16 +182,26 @@ a{
     background-color: rgb(203, 191, 78,  32%);
     border-radius: 1rem;
     height: 0.5rem;
-    top: 0.8rem;
+    top: 0.9rem;
 }
+
+.colorbar:hover{
+    background-color: rgba(214, 197, 39, 0.712);
+}
+
+
 
 .colorbar2{
     position: absolute;
     width: 110px;
-    background-color: #fe78666c;
+    background-color: #fe786648;
     border-radius: 1rem;
     height: 0.5rem;
-    top: 0.8rem;
+    top: 0.9rem;
+}
+
+.colorbar2:hover{
+    background-color: #fe7866bb;
 }
 
 .cup{
